@@ -1,1 +1,3 @@
 # Web-project
+
+Our web development project for a jewelry store encompasses six distinct pages: the welcome page, home page, about us page, contact us page, add product page, and basket page. Utilizing CSS, we've tailored the visual elements of each page to ensure a cohesive and visually appealing user experience. Furthermore, we've seamlessly integrated database functionality to facilitate dynamic content management across the site. From the captivating welcome page to the informative about us section, user-friendly contact form, intuitive product management, and streamlined basket page, our project combines aesthetics with functionality to deliver an engaging and efficient online shopping experience for jewelry enthusiasts.
