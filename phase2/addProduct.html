@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>add-Product</title>
+   <link rel="icon" href="media/logo.jpg">
+   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./addProductStyle.css">
+</head>
+
+<body>
+   <header>
+
+      <nav>
+         <div id="logo">
+            <img src="media/logo.jpg" width=50 height=40 alt="logo">
+         </div>
+
+         <h2>World Of Jewelry</h2>
+
+         <ul>
+            <li><a href="WelcomePage.html">Welcome</a></li>
+            <li><a href="MainPage.html">Home</a></li>
+            <li><a href="About-UsPage.html">About-us</a></li>
+            <li><a href="Contact-UsPage.html">Contact-us</a></li>
+            <li><a href="#" class="active ">add Product</a></li>
+            <li><a href="pasket.html">Pasket</a></li>
+         </ul>
+      </nav>
+
+   </header>
+
+   <main>
+      <h1>Add Products</h1>
+      <form action="get" id="form-add">
+         <input type="hidden" name="formName" value="formAdd">
+         <div class="form-fields">
+            <div class="form-left">
+               <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required maxlength="50" pattern="[A-Za-z\s]+">
+               </div>
+               <div class="form-group">
+                  <label for="Price">Price:</label>
+                  <input type="number" id="Price" name="Price" required>
+               </div>
+               <div class="form-group">
+                  <label for="type"> Type:</label>
+                  <select id="type" name="type" required>
+                     <option value=""></option>
+                     <option value="Ring">Ring</option>
+                     <option value="Necklace">Necklace</option>
+                     <option value="Earring">Earring</option>
+                  </select>
+               </div>
+            </div>
+            <div class="form-right">
+               <div class="form-group">
+                  <label for="image" class="image">
+                     <svg xmlns="http://www.w3.org/2000/svg" height="26" width="20" viewBox="0 0 448 512">
+                        <path
+                           d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z" />
+                     </svg>
+                     <span>add image</span>
+                  </label>
+                  <input type="file" id="image" name="image" accept="image/*" required>
+               </div>
+            </div>
+         </div>
+         <div class="form-btn">
+            <button type="submit">Submit</button>
+         </div>
+      </form>
+   </main>
+
+   <div class="notification">
+      <p>sdkvjds fgkijdsafg </p>
+      <span class="close-not">
+         <svg xmlns="http://www.w3.org/2000/svg" height="21" width="17" viewBox="0 0 384 512">
+            <path
+               d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+         </svg>
+      </span>
+   </div>
+   <script src="./js/add-product.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,136 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(242, 238, 232);
+    background-image: url(media/welcomePhoto.jpg);
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+    background-size: cover;
+    background-position: center;
+
+    align-items: center;
+}
+
+
+.active {
+    font-weight: 600;
+    /* text-decoration: underline; */
+    background-color: rgb(174, 165, 143);
+    padding: 5px 10px;
+}
+
+
+#logo {
+    color: rgb(94, 93, 93);
+    padding-top: 20px;
+    float: left;
+
+    height: 40px;
+}
+
+nav h2 {
+
+    font-family: 'Dancing Script', cursive;
+}
+
+header nav {
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 255, 255);
+    color: rgb(87, 87, 87);
+    font-family: saucy, atlantic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+nav ul li {
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+    font-size: 17px;
+    font-family: monika;
+    padding: 20px;
+    list-style-type: none;
+    display: inline;
+}
+
+nav ul li a {
+    color: rgb(94, 93, 93);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    transition: 0.4s;
+    color: rgba(103, 95, 104, 0.589);
+
+    text-decoration: underline;
+}
+
+aside {
+    font-family: monika;
+    float: right;
+    width: 20%;
+    margin: 35px;
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    background-color: #ffffff;
+    padding-top: 10px;
+    color: #000000;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer-info,
+.footer-contact,
+.footer-social {
+    flex: 0 0 300px;
+    margin: 0 20px;
+}
+
+.footer-info h3,
+.footer-contact h3,
+.footer-social h3 {
+    margin-top: 0;
+    color: #4b3f2f;
+    font-size: 13px;
+}
+
+.footer-info p,
+.footer-contact p {
+    margin-bottom: 0px;
+    color: #615139;
+    font-size: 12px;
+}
+
+
+.footer-bottom {
+    background-color: #9d9483;
+    padding: 8px 0;
+    margin: 0px;
+    font-size: 12px;
+    color: #ffffff;
+    margin-top: 0px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #615139;
+    font-size: 13px;
+    padding-left: 9px;
+    text-decoration: none;
+}

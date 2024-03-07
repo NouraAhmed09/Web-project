@@ -1,0 +1,411 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(242, 238, 232);
+    scroll-behavior: smooth;
+}
+
+
+#logo {
+    padding-top: 20px;
+    float: left;
+}
+
+.active {
+    font-weight: 600;
+    /* text-decoration: underline; */
+    background-color: rgb(174, 165, 143);
+    padding: 5px 10px;
+}
+
+nav h2 {
+
+    font-family: 'Dancing Script', cursive;
+}
+
+header nav {
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 255, 255);
+    color: rgb(87, 87, 87);
+    font-family: saucy, atlantic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+nav ul li {
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+    font-size: 17px;
+    font-family: monika;
+    padding: 20px;
+    list-style-type: none;
+    display: inline;
+}
+
+nav ul li a {
+    color: rgb(94, 93, 93);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    transition: 0.4s;
+    color: rgba(103, 95, 104, 0.589);
+
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+#main {
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    background: url(media/new\ colection.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    align-items: center;
+    background-color: rgba(222, 207, 207, 0.797);
+}
+
+
+#main div P {
+
+    font-family: monika;
+    color: rgb(248, 242, 227);
+    font-size: 20px;
+}
+
+#main div h1 {
+    color: rgb(146, 131, 115);
+    font-family: 'Dancing Script', cursive;
+
+
+}
+
+#main div {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-right: 200px;
+
+}
+
+#main div h2 {
+    color: rgb(146, 131, 115);
+    font-family: monika;
+
+
+}
+
+section #type {
+    margin-top: 30px;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    text-align: center;
+}
+
+section div h3 {
+
+    margin: 9px;
+    margin-left: 10px;
+    color: rgb(146, 131, 115);
+    font-family: 'Dancing Script', cursive;
+}
+
+section div #textring {
+
+    margin-left: 10px;
+    color: rgb(146, 131, 115);
+    font-family: 'Dancing Script', cursive;
+}
+
+section div #mainRing {
+    height: 230px;
+    width: 200px;
+    margin-top: 20px;
+    border: 4px solid rgb(174, 165, 143);
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+section div #mainNecklace {
+    height: 230px;
+    width: 200px;
+    margin-top: 20px;
+    border: 4px solid rgb(174, 165, 143);
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1);
+
+
+}
+
+section div #mainEarring {
+    height: 230px;
+    width: 200px;
+    margin-top: 20px;
+    border: 4px solid rgb(174, 165, 143);
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+#colection {
+    margin-top: 60px;
+
+    height: 200px;
+    background: url("media/main\ photo.jpg")no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+section {
+    margin-top: 70px;
+}
+
+
+.img {
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    background: #fff;
+    padding: 10px;
+    padding-bottom: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+#imgring1 {
+    width: 100%;
+    height: 200px;
+}
+
+#text {
+    padding-top: 10px;
+}
+
+#text div:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding-inline: 10px;
+}
+
+#text .cart-btn {
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+#text h4 {
+    margin-left: 3px;
+    margin: 0;
+    font-size: 17px;
+}
+
+#text p {
+    margin-left: 3px;
+    margin: 0;
+    font-size: 17px;
+}
+
+#Necklace,
+#Ring,
+#Earring {
+    padding-block: 20px;
+}
+
+
+
+.section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: space-around;
+    padding: 0px 20px;
+}
+
+.title {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.title h2 {
+    margin: 0;
+    padding: 20px;
+    background-color: #fff;
+    width: max-content;
+    border-radius: 5px;
+    position: relative;
+}
+
+.title h2::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(174, 165, 143);
+    right: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.title h2::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(174, 165, 143);
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.cart-btnnecklace {
+    font-size: 17px;
+    margin-left: 10px;
+    border: none;
+    background: linear-gradient(to right, rgb(188, 179, 164) 0%, #9a836e 100%);
+    border-radius: 20px;
+    padding: 10px 25px;
+    cursor: pointer;
+    color: rgb(69 69 69);
+    fill: rgb(69 69 69);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+footer {
+    background-color: #ffffff;
+    padding-top: 10px;
+    color: #000000;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer-info,
+.footer-contact,
+.footer-social {
+    flex: 0 0 300px;
+    margin: 0 20px;
+}
+
+.footer-info h3,
+.footer-contact h3,
+.footer-social h3 {
+    margin-top: 0;
+    color: #4b3f2f;
+    font-size: 13px;
+}
+
+.footer-info p,
+.footer-contact p {
+    margin-bottom: 0px;
+    color: #615139;
+    font-size: 12px;
+}
+
+
+.footer-bottom {
+    background-color: #9d9483;
+    padding: 8px 0;
+    margin: 0px;
+    font-size: 12px;
+    color: #ffffff;
+    margin-top: 0px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #615139;
+    font-size: 13px;
+    padding-left: 9px;
+    text-decoration: none;
+}
+
+.notification {
+    position: fixed;
+    top: -100%;
+    left: 50%;
+    max-width: 70%;
+    width: fit-content;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    gap: 20px;
+    /* border-radius: 5px; */
+    background-color: #eee;
+    margin: 0px;
+    font-size: 18px;
+    visibility: hidden;
+    transition: all .3s;
+    box-shadow: 0px 5px 10px -2px rgba(0 0 0 / 0.3);
+}
+
+@media (max-width:578px) {
+    .notification {
+        max-width: 90%;
+    }
+}
+
+.notification.success {
+    visibility: visible;
+    /* border-bottom: 3px solid #2fcb2f; */
+    border-right: 6px solid #2fcb2f;
+    fill: #0b9f0b;
+    top: 40px;
+}
+
+.notification.error-m {
+    visibility: visible;
+    border-right: 6px solid #cb412f;
+    fill: 6px solid #be301d;
+    top: 40px;
+}
+
+.notification p {
+    margin: 0px;
+}
+
+.notification span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+@keyframes notif {
+    form {
+        top: -100%;
+    }
+
+    to {
+        top: 40px;
+    }
+}
